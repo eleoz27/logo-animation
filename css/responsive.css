@@ -1,0 +1,64 @@
+/* DISPOSITIVOS MOVILES */
+@media screen and (max-width: 1024px) {
+    .logogp{
+        width: 320px;
+    }
+    .logogp img {
+        width: 320px;
+    }   
+    .logogp img:hover {
+        width: 310px;
+    } 
+
+    @keyframes entrada {
+        0% {
+            transform: scale(0.1) translate(0, 0);;
+        }
+        50% {
+            transform: scale(1.5) translate(0, 0);
+        }
+    
+        100% {
+            transform: scale(1) translate(0, -300px);
+        }
+    }
+
+    @keyframes entrada2 {
+        0% {
+            transform: scale(0.1) translate(0, 0);;
+        }
+        50% {
+            transform: scale(1.5) translate(0, 0);
+        }
+    
+        100% {
+            transform: scale(1) translate(0, 250px);
+        }
+    }
+
+    @keyframes entrada3 {
+        0% {
+            transform: scale(0.1) translate(0, 0);;
+        }
+        50% {
+            transform: scale(1.5) translate(0, 0);
+        }
+    
+        100% {
+            transform: scale(1) translate(0, 80px);
+        }
+    }
+
+    @keyframes entrada4 {
+        0% {
+            transform: scale(0.1) translate(0, 0);;
+        }
+        50% {
+            transform: scale(1.5) translate(0, 0);
+        }
+    
+        100% {
+            transform: scale(1) translate(0, -120px);
+        }
+    }
+}

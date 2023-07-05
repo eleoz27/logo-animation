@@ -1,0 +1,128 @@
+body{
+    background-color: #1e1e1e;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ocultar{
+    display: none;
+}
+.mostrar {
+    display: block;
+}
+.logogp{
+    width: 400px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    position: absolute;
+}
+
+.logogp img {
+    width: 400px;
+    transition-duration: 2s;
+    
+}
+
+.logogp img:hover {
+    border: solid #fdfdfd 2px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 380px;
+
+}
+
+footer {
+    color: #fdfdfd;
+    position: absolute;
+    bottom: 10px;
+}
+
+
+@keyframes entrada {
+    0% {
+        transform: scale(0.1) translate(0, 0);;
+    }
+    50% {
+        transform: scale(2) translate(0, 0);
+    }
+
+    100% {
+        transform: scale(1) translate(0, -140%);
+    }
+}
+
+.animacionuno {
+    animation-name: entrada;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}
+
+@keyframes entrada2 {
+    0% {
+        transform: scale(0.1) translate(0, 0);;
+    }
+    50% {
+        transform: scale(2) translate(0, 0);
+    }
+
+    100% {
+        transform: scale(1) translate(0, 140%);
+    }
+}
+
+.animaciondos {
+    animation-name: entrada2;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}
+
+@keyframes entrada3 {
+    0% {
+        transform: scale(0.1) translate(0, 0);;
+    }
+    50% {
+        transform: scale(2) translate(0, 0);
+    }
+
+    100% {
+        transform: scale(0.9) translate(80%, 0);
+    }
+}
+
+.animaciontres {
+    animation-name: entrada3;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}
+
+@keyframes entrada4 {
+    0% {
+        transform: scale(0.1) translate(0, 0);;
+    }
+    50% {
+        transform: scale(2) translate(0, 0);
+    }
+
+    100% {
+        transform: scale(0.9) translate(-80%, 0);
+    }
+}
+
+.animacioncuatro {
+    animation-name: entrada4;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}

@@ -1,0 +1,25 @@
+/* Reset CSS de Eric Meyer */
+
+/* 1. Reiniciar márgenes y rellenos */
+body, figure, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dd, ul, ol, form, fieldset, legend, textarea, pre, iframe, hr {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 2. Hacer que los elementos sean anulables y establecer el tamaño de fuente predeterminado */
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+  }
+  
+  /* 3. Hacer que los elementos de lista se muestren como bloques */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* 4. Restablecer los estilos de los enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
